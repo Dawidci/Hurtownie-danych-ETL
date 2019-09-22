@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BEB6CE13-C2F0-62A0-D453-65E5AC2D864B" name="t_key_promocja">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>907021C3-9E5A-02A8-93F9-48BB94BFD583</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="t_id" id="F2855BFA-5109-88C5-9ED4-237CE3CFD97F">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>2A5B6B70-A0BB-8A17-7331-EDB7717E7761</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_value" id="6D7FCF42-9536-0CEE-4DE7-60B0FF3E6C6E">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>E4D6AE31-A64C-038A-D2FD-3CF0F9330BA1</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_key_promocja_ID" id="FCB531C9-C8C1-744D-E381-D0B9FE0DD2F4">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A71F1C9F-133C-520D-7557-7EDF2A35F74B" name="t_key_promocja_PK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="FCB531C9-C8C1-744D-E381-D0B9FE0DD2F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

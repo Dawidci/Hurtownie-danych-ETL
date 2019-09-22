@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PLATFORMA_WYDANIE" directorySegmentName="seg_0" id="B1D01F51-D2BB-7913-498A-C77AC87392B6">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:45:22 UTC</createdTime>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<engineerTo>
+<item key="FD98F1FD-5A76-7950-5615-CC6038A0030E" value="true"/>
+</engineerTo>
+<sourcePk>110DC84D-E12A-9D27-2D53-42DC76AFC9E3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DCCDFDCA-B323-F75F-F919-D532CC71B772</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E6EBB08B-8378-EF66-573F-F6F6B16F233E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

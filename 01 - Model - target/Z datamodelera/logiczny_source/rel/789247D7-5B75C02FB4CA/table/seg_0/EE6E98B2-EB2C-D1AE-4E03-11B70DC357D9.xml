@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE6E98B2-EB2C-D1AE-4E03-11B70DC357D9" name="poprawka">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>C1F630A0-DACD-D5F1-7875-467A9DF359A3</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_poprawka" id="1AF22757-F676-E57E-6CB5-D2C43A1B76B2">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>DF0D46BE-F5A3-DCF9-09FF-460DC6598F35</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa_kodowa" id="1708DC3F-A937-5C26-9CF0-A0DCFD225B8B">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>272E2455-8629-5648-F074-F49CF3CD0A97</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gra_id_gra" id="73F2B185-4C9B-B0BF-B513-2379E07C962C">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>8EFD40D4-E882-09FA-8F9A-34B60A1B9291</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FCD9D03C-6274-FA3F-622C-2467553ACFE1" referredColumn="35541BBB-7D27-37E4-979C-5775EF4F49C9"/>
+</associations>
+</Column>
+<Column name="koszt" id="88C2E3D1-C207-562C-0705-532FD77DA02E">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>7A764A7B-AD50-B3DF-8159-47E9CB55EC99</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="priorytet" id="FFA88D7C-5383-4CDD-4ABA-F0321C3166D2">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>1E8AC3D4-BE90-C306-3DE6-2E0332F55DAD</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD2F203B-754A-C493-10E3-5049D28C642B" name="poprawka_PK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>FA84A13D-B76A-C5E8-9565-2881E9AC579E</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AF22757-F676-E57E-6CB5-D2C43A1B76B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E14C954B-EF87-5335-108A-7DDF38C30F4A" name="poprawka_gra_FK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>8C794D9C-7215-FABC-BBE9-3260840F990E</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73F2B185-4C9B-B0BF-B513-2379E07C962C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

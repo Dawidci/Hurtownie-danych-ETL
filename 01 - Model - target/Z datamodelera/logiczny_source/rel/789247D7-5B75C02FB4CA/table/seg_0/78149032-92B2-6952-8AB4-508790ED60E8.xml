@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="78149032-92B2-6952-8AB4-508790ED60E8" name="produkcja">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>E47418D0-B5CB-4D69-AED9-97373A47DC95</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produkcja" id="E89F8AED-E01D-4FC1-AFA2-EED0312EF525">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>7EBFEAD1-42F3-29FD-88D1-ADE1A71DA53F</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa_kodowa" id="094A5B9B-D45E-DD93-3BE3-6CC193D6FE55">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>593989A9-F853-4E3D-FE4D-B596558A104C</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="studio_id_studio" id="47397054-6F3B-8FAA-8C42-86D8A86F6C34">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>9B310858-3545-8922-DB3C-C06DCA0DAABA</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EB52FEF-57FE-A4AE-965E-4BADAA56591D" referredColumn="14B28C51-8342-2570-8D81-FD0623A7A6F5"/>
+</associations>
+</Column>
+<Column name="rok_rozpoczecia" id="827C33FE-A4ED-F6A1-A835-781FCF068B77">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>8001F48B-1E7E-2426-A9B6-EA03C3E966C0</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="koszt" id="5CAA0B95-1F29-4012-78CD-DEEB45BB51F7">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>681CEFD9-4D47-EFD8-0D68-ACEE5C5E5678</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gra_id_gra" id="04807082-E02A-CEBD-24AD-B7B69A968FC7">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>B655D49F-1E2A-1F51-FF9D-2A5F70AB34F7</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4108E69-2DB2-079A-AC26-E03957ABD830" referredColumn="35541BBB-7D27-37E4-979C-5775EF4F49C9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A77366E-ED5B-DBA9-5264-3224C9F3DAEA" name="produkcja_PK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>D1CA1882-60B0-C2D8-EE23-3329CC3890C0</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E89F8AED-E01D-4FC1-AFA2-EED0312EF525"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94CFEB4F-DF55-ABBE-2D45-3239A25A3433" name="produkcja__IDX">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B3130C42-7062-2573-5F93-9F045CB10E5E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="04807082-E02A-CEBD-24AD-B7B69A968FC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31D4FBF4-EE2C-3FBB-9C81-EF63FAF980A2" name="produkcja_gra_FK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>B3130C42-7062-2573-5F93-9F045CB10E5E</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04807082-E02A-CEBD-24AD-B7B69A968FC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1D573F7-D213-2E18-DCD7-39B383B9B032" name="produkcja_studio_FK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>E5DD34C2-C471-394D-C756-5A11DED2D7A0</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47397054-6F3B-8FAA-8C42-86D8A86F6C34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7EF6785D-A037-9A74-A3D6-44DC32070219" name="platforma">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>9B471BBE-4837-7CFA-E2C4-8F0158A7C863</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_platforma" id="0EB9D258-B53A-725C-10F2-696C1B60F1D3">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>011D4C5E-1E0F-2A0A-1A25-875AD0458C57</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa" id="D826F57D-E986-13FD-5DCB-9790FD8D1AD1">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>C95825AD-9EA8-F6B1-4B51-654D4B7D49D2</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="liczba_graczy" id="F1A1FA1E-C046-CFFD-B5FC-AD235E1CDFF5">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>82CFAB90-4719-85D1-C27B-729B7E6A1BF1</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="wydanie_id_wydanie" id="5191C3FB-EF9B-D2A4-68DB-F131C918FD54">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>5B226F18-6CA4-D9BB-D2A2-211EC3679278</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E80A361-A5B0-A6CC-CAEB-441A6DF39B38" referredColumn="3D141F90-0DDB-8C8E-416E-F4DDDA110F4D"/>
+</associations>
+</Column>
+<Column name="source" id="8519BD97-9A2C-8CCF-D1A8-71B94E84568B">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>160E384F-080D-176F-B3FC-E8760B9E74F6</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="timestamp" id="9A4EB2C6-EF0C-6D34-ABF7-180416317137">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>1FF90099-5D94-510B-6D68-24DD7029EF1A</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_key_platforma_t_key_platforma_ID" id="1F11731D-D345-8750-C0C8-13769AFCB991">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13467A0B-6865-4F69-62FE-A2F1996EAB88" referredColumn="8CE503FA-3618-A379-FF2C-6E8B207F57F6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="74DB7AF2-4302-3C8F-1496-30C1A8DBC886" name="platforma_PK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>74711C72-7297-6EB0-2B91-5D8EF4525F19</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EB9D258-B53A-725C-10F2-696C1B60F1D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2CC45009-EE24-59CD-8E67-B5F89C3C60AA" name="platforma_t_key_platforma_FK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>8194C9AD-0211-4BDF-A42B-99E2F6A52AA5</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F11731D-D345-8750-C0C8-13769AFCB991"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E355593E-F6DF-FBC1-05B3-1DEAE098A58D" name="platforma_wydanie_FK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>5E9A6172-E02D-E2C7-3407-689E910F6A6A</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5191C3FB-EF9B-D2A4-68DB-F131C918FD54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

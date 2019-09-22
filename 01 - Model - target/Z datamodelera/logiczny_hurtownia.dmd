@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="logiczny_hurtownia" id="399E62F8-3D63-016F-B808-36D609326B56" version="3.5">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 11:41:54 UTC</createdTime>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>399E62F8-3D63-016F-B808-36D609326B56</designId>
+</OSDM_Design>

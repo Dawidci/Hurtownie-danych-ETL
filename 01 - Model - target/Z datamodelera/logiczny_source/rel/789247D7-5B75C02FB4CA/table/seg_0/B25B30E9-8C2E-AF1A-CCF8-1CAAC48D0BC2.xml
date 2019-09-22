@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B25B30E9-8C2E-AF1A-CCF8-1CAAC48D0BC2" name="platforma">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>E6EBB08B-8378-EF66-573F-F6F6B16F233E</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_platforma" id="988366F4-ED33-D93C-FB91-E1C8A1F8A650">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>ACC79571-5478-F88F-EE37-9A60064C069B</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa" id="4C1403C3-EC47-B314-C0E8-721FE3214AF9">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>DC3F4C8E-079C-FB00-C729-C3D05FD7226D</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="liczba_graczy" id="8F729F1C-8AEE-1052-CFE7-5014DA54B88C">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>7B6FBB93-B098-33EC-1C8D-87A7A01BECDD</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="wydanie_id_wydanie" id="A86A8B6D-D2C4-6D2C-AB79-0609DCCC8434">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>AADFF00F-7556-1734-656F-87FD0594C5DB</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02612C7F-1647-E886-7EB0-16C3377EDA37" referredColumn="DA19B760-A9D0-591E-E532-8CFEA4F65515"/>
+</associations>
+</Column>
+<Column name="liczba_piratow" id="C9D24E06-B2E7-399E-9269-251C30EE4A1E">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>B9E105CD-99D5-109B-1CAB-CD95B634CB1A</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16D5CADB-213A-E0D7-3820-BD624D0D0642" name="platforma_PK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>A1A5131B-3A7A-BA10-B563-B720C590ACA6</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="988366F4-ED33-D93C-FB91-E1C8A1F8A650"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="123DA073-3596-AD74-306C-B7703E55F709" name="platforma_wydanie_FK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>B1D01F51-D2BB-7913-498A-C77AC87392B6</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A86A8B6D-D2C4-6D2C-AB79-0609DCCC8434"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

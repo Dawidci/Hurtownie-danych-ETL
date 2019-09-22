@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B11073E0-F214-4096-BE9D-7C535D8C9D0F" name="studio">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>B2FB1C1B-C3C0-E448-D5AE-A0B4C3E6A442</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_studio" id="14B28C51-8342-2570-8D81-FD0623A7A6F5">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>E6BD9A7A-7D39-987D-ECD9-6E87D3D927D1</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa" id="547B94F6-398A-1CDD-BE39-B92BFE28BA05">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>E57D4B82-E3EA-2385-6505-12F54733E803</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="liczba_pracownikow" id="FF95CE22-52E3-A757-8385-BFB005094E1F">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>5601ED5B-FECC-F1D3-DE61-F0B0F4AAF1AB</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="liczba_dzialow" id="64076D28-CC40-9A75-B1B1-5783E5558F8D">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>BB85F985-F003-41B9-4059-F7FC883FB643</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="siedziba" id="1AF32C10-6E9E-36FD-18FE-22ADB3673E9E">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>500E230C-360A-B21E-02A5-BFA47C5C5638</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="996661AE-95BC-F538-A163-5322D376602E" name="studio_PK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>0DD586CC-0BDF-4827-21AE-276C04E4A21E</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14B28C51-8342-2570-8D81-FD0623A7A6F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

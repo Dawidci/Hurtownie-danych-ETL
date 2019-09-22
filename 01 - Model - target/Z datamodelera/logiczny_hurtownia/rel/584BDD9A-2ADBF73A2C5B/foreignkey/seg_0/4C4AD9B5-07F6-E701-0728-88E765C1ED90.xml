@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4C4AD9B5-07F6-E701-0728-88E765C1ED90" containerWithKeyObject="A5DA25D9-B7CC-6172-8681-42BDFDE98D9B" localFKIndex="36B5B7CE-1C32-D776-FD4F-061BC49DD3D4" name="poprawka_gra_FK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:31:10 UTC</createdTime>
+<generatorID>C279425B-5DCF-BF8F-42AC-0648C1B1619E</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<referredTableLongName>gra</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C46BDDFA-7025-D7FA-3771-A3324DBAA26B</referredTableID>
+<keyObject>620149CA-B7ED-0E27-786E-BEF02B63AC2A</keyObject>
+<referredKeyID>620149CA-B7ED-0E27-786E-BEF02B63AC2A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_gry</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

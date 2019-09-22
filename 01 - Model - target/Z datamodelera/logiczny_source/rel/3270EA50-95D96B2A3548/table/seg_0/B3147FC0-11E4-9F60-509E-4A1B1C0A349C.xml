@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3147FC0-11E4-9F60-509E-4A1B1C0A349C" name="wersja_poprawki">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:45:16 UTC</createdTime>
+<generatorID>FE398687-9B4D-B4FA-503B-C841D9272F95</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_wersji_poprawki" id="CC66E872-0267-2D0C-444C-11E1D61F4E1C">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:45:16 UTC</createdTime>
+<generatorID>AFED46E9-DC8E-D0E2-CBBE-F407B2DE58AA</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa" id="8E4DD640-79CD-DBED-72FC-1E8FFEFB7BC5">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:45:16 UTC</createdTime>
+<generatorID>1E7F87C4-EC3D-2B81-28BC-3C356DA99E0F</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="poprawka_id_poprawki" id="43ECED14-EEFC-0D0C-585B-39920D0F88E1">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:45:16 UTC</createdTime>
+<generatorID>7898A7EC-DE2A-C963-D296-E5C66D951C85</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52A51737-3050-E9EC-6A39-C63E922F0AF8" referredColumn="CD048DAD-2D51-1E01-DCF7-A2838E9117E5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="839C1344-7B6E-322E-F743-930A3F364B4E" name="wersja_poprawki_PK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:45:16 UTC</createdTime>
+<generatorID>AD7EC066-B855-9BB8-6C0F-60A8DA2345D3</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC66E872-0267-2D0C-444C-11E1D61F4E1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C2D2DA1-98D2-3019-82D7-DDCACD78BDBB" name="wersja_poprawki_poprawka_FK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:45:16 UTC</createdTime>
+<generatorID>3CADE998-CAB4-7D1D-AABA-931A4383E647</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43ECED14-EEFC-0D0C-585B-39920D0F88E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

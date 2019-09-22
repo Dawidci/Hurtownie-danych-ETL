@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="98F193B2-1482-3083-99E4-3956C24325BE" name="t_key_studio">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:48:08 UTC</createdTime>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<engineerTo>
+<item key="16805725-4A50-854F-E5E0-0D1D5421A1EB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="t_id" id="54A63AC4-BA7B-2E62-3B1E-ADE9A632ECA1">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:48:08 UTC</createdTime>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<engineerTo>
+<item key="16805725-4A50-854F-E5E0-0D1D5421A1EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="t_value" id="85080D1C-861A-68DF-D44E-4FC5C3AEE4C1">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:48:08 UTC</createdTime>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<engineerTo>
+<item key="16805725-4A50-854F-E5E0-0D1D5421A1EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

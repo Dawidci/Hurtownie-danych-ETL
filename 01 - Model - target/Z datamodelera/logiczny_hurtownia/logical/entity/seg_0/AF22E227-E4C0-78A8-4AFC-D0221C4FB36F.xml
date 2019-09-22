@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AF22E227-E4C0-78A8-4AFC-D0221C4FB36F" name="rodzaj_promocji">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:03:56 UTC</createdTime>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<engineerTo>
+<item key="16805725-4A50-854F-E5E0-0D1D5421A1EB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_rodzaj_promocji" id="229CCD99-9B66-0EA3-2487-DD8456B31B57">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:03:56 UTC</createdTime>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<importedID>B82A2D64-4540-A2BB-F67D-EFBA8DD2C047</importedID>
+<engineerTo>
+<item key="16805725-4A50-854F-E5E0-0D1D5421A1EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa" id="102AFD87-D85B-1F5E-7537-30E7D4DBBF41">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:03:56 UTC</createdTime>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<importedID>C941E32A-5F93-DA7E-1CF8-7A95B98B13A0</importedID>
+<engineerTo>
+<item key="16805725-4A50-854F-E5E0-0D1D5421A1EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grupa_docelowa" id="DFB6C710-8B00-E64D-66C9-D1878C5F4BA6">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:38:47 UTC</createdTime>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<engineerTo>
+<item key="16805725-4A50-854F-E5E0-0D1D5421A1EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_promocja" id="EF39A459-7587-D0F5-3050-C7EFB08B53A5">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:03:56 UTC</createdTime>
+<generatorID>A5584062-28AB-D30A-B75B-713BC0DC89DF</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<importedID>31526AA3-7A7B-FD0A-535A-47D25B17ABA3</importedID>
+<engineerTo>
+<item key="16805725-4A50-854F-E5E0-0D1D5421A1EB" value="true"/>
+</engineerTo>
+<referedAttribute>6440BBB9-5B04-E40A-A3DE-394274822325</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="source" id="0C5027E4-65B8-A177-86B4-EAA975A3E0CE">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:22:51 UTC</createdTime>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<engineerTo>
+<item key="16805725-4A50-854F-E5E0-0D1D5421A1EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="timestamp" id="A209DE8C-8177-CC3D-3CA4-1FE2D65CF900">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:03:56 UTC</createdTime>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<importedID>91A19BE7-FA37-6931-F4C6-A4EF7940575F</importedID>
+<engineerTo>
+<item key="16805725-4A50-854F-E5E0-0D1D5421A1EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="018722C8-FDEE-EB1A-D6D3-3ED1073C88B1" name="rodzaj_promocji PK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:03:56 UTC</createdTime>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<engineerTo>
+<item key="16805725-4A50-854F-E5E0-0D1D5421A1EB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>229CCD99-9B66-0EA3-2487-DD8456B31B57</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

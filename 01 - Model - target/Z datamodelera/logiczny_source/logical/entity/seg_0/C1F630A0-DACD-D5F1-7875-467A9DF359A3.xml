@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C1F630A0-DACD-D5F1-7875-467A9DF359A3" name="poprawka">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:45:22 UTC</createdTime>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<engineerTo>
+<item key="789247D7-A876-03E7-701E-5B75C02FB4CA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_poprawka" id="DF0D46BE-F5A3-DCF9-09FF-460DC6598F35">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:45:22 UTC</createdTime>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<importedID>A58D07FB-9BFA-05BF-A785-5DD7A356040C</importedID>
+<engineerTo>
+<item key="789247D7-A876-03E7-701E-5B75C02FB4CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa_kodowa" id="272E2455-8629-5648-F074-F49CF3CD0A97">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 19:21:25 UTC</createdTime>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<engineerTo>
+<item key="789247D7-A876-03E7-701E-5B75C02FB4CA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_gra" id="8EFD40D4-E882-09FA-8F9A-34B60A1B9291">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:45:22 UTC</createdTime>
+<generatorID>8C794D9C-7215-FABC-BBE9-3260840F990E</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<importedID>81010ECA-26C1-6557-3C69-5D1082B99A5F</importedID>
+<engineerTo>
+<item key="789247D7-A876-03E7-701E-5B75C02FB4CA" value="true"/>
+</engineerTo>
+<referedAttribute>321A16FA-AECA-AE2C-4BAE-94F9FF81379D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="koszt" id="7A764A7B-AD50-B3DF-8159-47E9CB55EC99">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:45:22 UTC</createdTime>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<importedID>D2A4F8E6-04F8-E58F-B91C-AC02AC1EF8EC</importedID>
+<engineerTo>
+<item key="789247D7-A876-03E7-701E-5B75C02FB4CA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="priorytet" id="1E8AC3D4-BE90-C306-3DE6-2E0332F55DAD">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:45:22 UTC</createdTime>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<importedID>31B27761-0AF9-1056-3BA7-BCD3B18F4FF8</importedID>
+<engineerTo>
+<item key="789247D7-A876-03E7-701E-5B75C02FB4CA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FA84A13D-B76A-C5E8-9565-2881E9AC579E" name="poprawka PK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:45:22 UTC</createdTime>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<engineerTo>
+<item key="789247D7-A876-03E7-701E-5B75C02FB4CA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DF0D46BE-F5A3-DCF9-09FF-460DC6598F35</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_GRA_POPRAWKA" directorySegmentName="seg_0" id="8C794D9C-7215-FABC-BBE9-3260840F990E">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:45:22 UTC</createdTime>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<engineerTo>
+<item key="FD98F1FD-5A76-7950-5615-CC6038A0030E" value="true"/>
+</engineerTo>
+<sourcePk>13AC5174-35FB-959A-905F-35A37E3ECF21</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A560A1EF-ED71-093B-648B-0B79E5E70731</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C1F630A0-DACD-D5F1-7875-467A9DF359A3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="hurtownia" id="584BDD9A-E397-064C-1A80-2ADBF73A2C5B" mainViewID="32832714-BDF5-14B3-3F28-939E5E54E805">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 11:41:54 UTC</createdTime>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

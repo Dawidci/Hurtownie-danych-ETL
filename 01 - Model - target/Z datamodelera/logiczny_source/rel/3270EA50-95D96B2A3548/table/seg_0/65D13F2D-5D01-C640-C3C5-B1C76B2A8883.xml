@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65D13F2D-5D01-C640-C3C5-B1C76B2A8883" name="produkcja">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:45:16 UTC</createdTime>
+<generatorID>E47418D0-B5CB-4D69-AED9-97373A47DC95</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produkcji" id="50EA5F10-8C11-5DA6-E0E7-FE589F1A2880">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:45:16 UTC</createdTime>
+<generatorID>7EBFEAD1-42F3-29FD-88D1-ADE1A71DA53F</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="studio_id_studia" id="22EF8C86-A866-609E-7BBE-99AD5B2030F1">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:45:16 UTC</createdTime>
+<generatorID>9B310858-3545-8922-DB3C-C06DCA0DAABA</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A25F692E-0AB5-44DC-0B75-CF80AA542565" referredColumn="8B1D60F2-7352-7269-0E88-74AF72460D4A"/>
+</associations>
+</Column>
+<Column name="rok_rozpoczecia" id="2EA8F881-1779-3CE9-BDB9-F7E592EB1616">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:45:16 UTC</createdTime>
+<generatorID>8001F48B-1E7E-2426-A9B6-EA03C3E966C0</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="koszt" id="926B93DD-E352-F720-326B-51F849A7AB3C">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:45:16 UTC</createdTime>
+<generatorID>681CEFD9-4D47-EFD8-0D68-ACEE5C5E5678</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB8CD739-93FF-DBDC-932B-E843168E992C" name="produkcja_PK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:45:16 UTC</createdTime>
+<generatorID>D1CA1882-60B0-C2D8-EE23-3329CC3890C0</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50EA5F10-8C11-5DA6-E0E7-FE589F1A2880"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40635C42-8AE6-362C-6756-8961B4CE4172" name="produkcja_studio_FK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:45:16 UTC</createdTime>
+<generatorID>E5DD34C2-C471-394D-C756-5A11DED2D7A0</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22EF8C86-A866-609E-7BBE-99AD5B2030F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

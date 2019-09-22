@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DODATEK_WP" directorySegmentName="seg_0" id="83567929-C090-83BF-B1C5-1557B25FA70F">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:45:22 UTC</createdTime>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<engineerTo>
+<item key="3270EA50-E68C-7938-2DB9-95D96B2A3548" value="true"/>
+</engineerTo>
+<sourcePk>057101F4-DC8E-9731-3891-946358502B3D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BDB95198-C0CD-D7F3-35A9-A0B7E4E55CBC</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>EF8FFF41-5E3B-C75B-7228-5CF9E659D36E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PRODUKCJA_T_KEY_PRODUKCJA" directorySegmentName="seg_0" id="A192856C-1720-995C-7001-EFD3CC450E95">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:51:11 UTC</createdTime>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<engineerTo>
+<item key="584BDD9A-E397-064C-1A80-2ADBF73A2C5B" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4013EFFF-E3FF-B724-4DB0-C18DFA5411D0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3DE5192D-B04B-CE9B-382E-E17F301EC253</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

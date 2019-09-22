@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3A22EA86-8398-D3D5-0B57-F330E7430377" containerWithKeyObject="1B9449DF-27A4-3476-5556-A7A4002ABDB4" localFKIndex="3B842855-DA9C-11C4-261A-595B000BC2DB" name="gra_produkcja_FK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:45:16 UTC</createdTime>
+<generatorID>EBB2ED8C-55E9-674D-4CF1-5B5D92EC1176</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<referredTableLongName>produkcja</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>65D13F2D-5D01-C640-C3C5-B1C76B2A8883</referredTableID>
+<keyObject>AB8CD739-93FF-DBDC-932B-E843168E992C</keyObject>
+<referredKeyID>AB8CD739-93FF-DBDC-932B-E843168E992C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_produkcji</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

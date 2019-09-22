@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DODATEK_WPROWADZENIE_DODATKU" directorySegmentName="seg_0" id="DA3C9292-F486-8A5F-06E2-90B24383A92C">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:03:56 UTC</createdTime>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<engineerTo>
+<item key="584BDD9A-E397-064C-1A80-2ADBF73A2C5B" value="true"/>
+</engineerTo>
+<sourcePk>AE7145C6-93E6-98A1-EAFE-72BF20D4B3D6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8EFED2CF-13EB-EB5F-0EB0-32DE579FE39E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>581F8297-FAEC-0F28-B3C7-6AE8DFB1CD61</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

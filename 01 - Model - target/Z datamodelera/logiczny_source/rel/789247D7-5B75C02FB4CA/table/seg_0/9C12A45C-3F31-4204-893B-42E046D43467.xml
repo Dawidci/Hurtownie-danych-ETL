@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C12A45C-3F31-4204-893B-42E046D43467" name="wprowadzenie_dodatku">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>EF8FFF41-5E3B-C75B-7228-5CF9E659D36E</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dodatek_id_dodatek" id="8FC39F0F-4286-48C6-3CBD-D06910F23530">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>AB616101-6471-3337-5CEA-03E91BC7B342</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BABB9787-635A-9245-8BFD-96DB6149BABB" referredColumn="89E63F1D-4455-379E-4546-E5F024215849"/>
+</associations>
+</Column>
+<Column name="studio_id_studio" id="AC30DFA0-8A36-4E2E-4E48-38DC84EBD678">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>DEDD7189-F849-26F0-4563-634C59C3ACC4</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2A2A936-B911-D649-553B-402BBE01141A" referredColumn="14B28C51-8342-2570-8D81-FD0623A7A6F5"/>
+</associations>
+</Column>
+<Column name="id_wprowadzenie_dodatku" id="A15BD105-0BF9-395D-F02A-EE7C8383299D">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>667FBE74-D115-88DA-300F-01C0A2CD3DE4</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa_kodowa" id="48CC7A40-892B-FE82-F91B-C4F61FA2344D">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>F96DA4F1-1AF9-A642-D867-AB621AC83E3C</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rok_wprowadzenia" id="054DA7DD-1B4C-A363-6475-405B0D14269A">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>C31D02FF-48C7-903F-3981-B4581009CF3F</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="koszt" id="6905ACB7-56CD-AE46-01DE-960B80BAB46C">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>7C7EFF83-FB26-C0F5-2EBC-1230B1A48ED3</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECDF4222-F53A-064D-EDA7-00196B5E05FC" name="wprowadzenie_dodatku_PK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>ABF72A2B-76D9-B390-3D1B-F3DFBC160848</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A15BD105-0BF9-395D-F02A-EE7C8383299D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="879A0500-0E2E-FE2C-16CA-905E2E9A0A81" name="wprowadzenie_dodatku__IDX">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>83567929-C090-83BF-B1C5-1557B25FA70F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="8FC39F0F-4286-48C6-3CBD-D06910F23530"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54843481-01B4-3318-74E3-03B6554950F1" name="wprowadzenie_dodatku__IDXv1">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B161D896-B300-CADB-3F83-66F5F1621A47</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="AC30DFA0-8A36-4E2E-4E48-38DC84EBD678"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C98C632-8D27-E358-ED7C-9D905E05F501" name="wprowadzenie_dodatku_dodatek_FK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>83567929-C090-83BF-B1C5-1557B25FA70F</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FC39F0F-4286-48C6-3CBD-D06910F23530"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3227715-0EA0-C98F-2CF5-11FB91DF7B1C" name="wprowadzenie_dodatku_studio_FK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>B161D896-B300-CADB-3F83-66F5F1621A47</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC30DFA0-8A36-4E2E-4E48-38DC84EBD678"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

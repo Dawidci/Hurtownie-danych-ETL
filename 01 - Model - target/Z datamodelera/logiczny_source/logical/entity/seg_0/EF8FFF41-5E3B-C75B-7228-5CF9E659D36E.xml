@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EF8FFF41-5E3B-C75B-7228-5CF9E659D36E" name="wprowadzenie_dodatku">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:45:22 UTC</createdTime>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<engineerTo>
+<item key="789247D7-A876-03E7-701E-5B75C02FB4CA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_dodatek" id="AB616101-6471-3337-5CEA-03E91BC7B342">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:45:22 UTC</createdTime>
+<generatorID>83567929-C090-83BF-B1C5-1557B25FA70F</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<importedID>AF33DD24-F8C7-5C70-519D-9F6384F9C348</importedID>
+<engineerTo>
+<item key="789247D7-A876-03E7-701E-5B75C02FB4CA" value="true"/>
+</engineerTo>
+<referedAttribute>095F6661-CDD1-AD42-B83E-DA9128594808</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_studio" id="DEDD7189-F849-26F0-4563-634C59C3ACC4">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:45:22 UTC</createdTime>
+<generatorID>B161D896-B300-CADB-3F83-66F5F1621A47</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<importedID>521E7CA9-85AD-B046-58CB-66A4FA1219F8</importedID>
+<engineerTo>
+<item key="789247D7-A876-03E7-701E-5B75C02FB4CA" value="true"/>
+</engineerTo>
+<referedAttribute>E6BD9A7A-7D39-987D-ECD9-6E87D3D927D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_wprowadzenie_dodatku" id="667FBE74-D115-88DA-300F-01C0A2CD3DE4">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:45:22 UTC</createdTime>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<importedID>EA09AA46-3AC2-F5FE-A43B-AF956EBA1451</importedID>
+<engineerTo>
+<item key="789247D7-A876-03E7-701E-5B75C02FB4CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa_kodowa" id="F96DA4F1-1AF9-A642-D867-AB621AC83E3C">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 19:20:47 UTC</createdTime>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<engineerTo>
+<item key="789247D7-A876-03E7-701E-5B75C02FB4CA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rok_wprowadzenia" id="C31D02FF-48C7-903F-3981-B4581009CF3F">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:45:22 UTC</createdTime>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<importedID>888BA56F-C381-98B9-C744-DD3EDC365774</importedID>
+<engineerTo>
+<item key="789247D7-A876-03E7-701E-5B75C02FB4CA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="koszt" id="7C7EFF83-FB26-C0F5-2EBC-1230B1A48ED3">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:45:22 UTC</createdTime>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<importedID>FF474480-CB4B-B939-F156-3C9A7F6E611D</importedID>
+<engineerTo>
+<item key="789247D7-A876-03E7-701E-5B75C02FB4CA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ABF72A2B-76D9-B390-3D1B-F3DFBC160848" name="wprowadzenie_dodatku PK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:45:22 UTC</createdTime>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<engineerTo>
+<item key="789247D7-A876-03E7-701E-5B75C02FB4CA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>667FBE74-D115-88DA-300F-01C0A2CD3DE4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

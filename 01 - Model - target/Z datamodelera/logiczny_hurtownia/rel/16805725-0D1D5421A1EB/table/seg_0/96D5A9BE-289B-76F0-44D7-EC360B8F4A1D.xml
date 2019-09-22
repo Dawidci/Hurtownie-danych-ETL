@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96D5A9BE-289B-76F0-44D7-EC360B8F4A1D" name="wersja_poprawki">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>FC54C1C2-4020-86DD-B260-02ACDE2140AA</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_wersja_poprawki" id="084889A1-2CAE-737B-CB36-FDA9D6F2C068">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>A0BBDF9B-7649-2710-CFFC-D32B4F3FAC43</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa" id="2A9D4404-618E-1436-BA57-B6F383525A65">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>A4F99CAC-81EE-CCB9-C8F1-17D9E692E433</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="source" id="62024F4F-30FE-B6CC-F260-45593CD57D3E">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>D0C21815-DB2B-AD51-1E10-4A0EBAE096EF</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="timestamp" id="4FB63D7A-0EDF-F264-E440-6468F086A7BC">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>EE6ADA97-D4FF-CADE-69B3-2A7FDEAD9EDB</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="poprawka_id_poprawka" id="A0A05C90-9A80-FE1F-5BD1-3CD21B46F34D">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>8AD3AE1E-46CD-13ED-00D0-3D8D2E26DD67</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51BF4779-AD5C-70CD-1611-C053604622BB" referredColumn="34D46E64-9A90-D99C-AD54-FBD1A2EDF7CD"/>
+</associations>
+</Column>
+<Column name="t_key_wersja_poprawki_t_key_wersja_poprawki_ID" id="5C82D136-3B5D-3E20-20AD-93E65DD87298">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2029B5B-7ADC-54A8-48D4-2508816BDD90" referredColumn="D6F08354-C3E0-A4C9-124D-2B5AFA175924"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7A03516-6E21-C4BD-D41D-761CF131397A" name="wersja_poprawki_PK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>E75A407F-8A83-80D2-8F3C-AD093E9D2679</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="084889A1-2CAE-737B-CB36-FDA9D6F2C068"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6F2C67A-F7D1-375E-7176-10779B7F4855" name="wersja_poprawki_poprawka_FK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>A57366D5-D72E-B10D-1B9B-612A55ADAF7C</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0A05C90-9A80-FE1F-5BD1-3CD21B46F34D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A9F1484-E85B-29D9-D1E4-7AF4678B6350" name="wersja_poprawki_t_key_wersja_poprawki_FK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>90B7A9F1-A1C0-56FE-63E5-192B0D3F733C</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C82D136-3B5D-3E20-20AD-93E65DD87298"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

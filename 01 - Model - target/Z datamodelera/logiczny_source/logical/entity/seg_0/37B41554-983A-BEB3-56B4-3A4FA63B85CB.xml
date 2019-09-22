@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="37B41554-983A-BEB3-56B4-3A4FA63B85CB" name="promocja">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:45:22 UTC</createdTime>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<engineerTo>
+<item key="789247D7-A876-03E7-701E-5B75C02FB4CA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_promocja" id="5819D8A7-FB2E-28D1-AC1F-C5E94F3E30B3">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:45:22 UTC</createdTime>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<importedID>6440BBB9-5B04-E40A-A3DE-394274822325</importedID>
+<engineerTo>
+<item key="789247D7-A876-03E7-701E-5B75C02FB4CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa_kodowa" id="D8A569B8-6B73-AEC8-EED7-1AFB2EFA286C">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 19:23:04 UTC</createdTime>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<engineerTo>
+<item key="789247D7-A876-03E7-701E-5B75C02FB4CA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_gra" id="A401DB7F-B96D-F0FF-09AF-63ED8B95A879">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:45:22 UTC</createdTime>
+<generatorID>A938E347-FB48-818D-542A-65D1D958F925</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<importedID>B0AB1891-2926-8DB8-4267-4CB243FF892B</importedID>
+<engineerTo>
+<item key="789247D7-A876-03E7-701E-5B75C02FB4CA" value="true"/>
+</engineerTo>
+<referedAttribute>321A16FA-AECA-AE2C-4BAE-94F9FF81379D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="koszt" id="1A05A4EA-114C-5083-533A-35A9D7EED743">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:45:22 UTC</createdTime>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<importedID>C4130FAC-D26B-0E96-32BD-C05878E06701</importedID>
+<engineerTo>
+<item key="789247D7-A876-03E7-701E-5B75C02FB4CA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zasieg" id="1491796E-A88B-DE16-C65C-F20F66ED1626">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:45:22 UTC</createdTime>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<importedID>C6A20775-81ED-CBF0-D773-F93BBE2CC41B</importedID>
+<engineerTo>
+<item key="789247D7-A876-03E7-701E-5B75C02FB4CA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="36F7F347-87D6-CF0E-FB4A-D4E15E7E60E4" name="promocja PK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:45:22 UTC</createdTime>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<engineerTo>
+<item key="789247D7-A876-03E7-701E-5B75C02FB4CA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5819D8A7-FB2E-28D1-AC1F-C5E94F3E30B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_WERSJA_POPRAWKI_T_KEY_WERSJA_POPRAWKI" directorySegmentName="seg_0" id="90B7A9F1-A1C0-56FE-63E5-192B0D3F733C">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:02:48 UTC</createdTime>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<engineerTo>
+<item key="584BDD9A-E397-064C-1A80-2ADBF73A2C5B" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FC9BF31E-6D37-1A69-E266-66488C2CC008</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FC54C1C2-4020-86DD-B260-02ACDE2140AA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

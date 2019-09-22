@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3B0710DA-9D52-E7D5-CDDA-760FE42E5A61" containerWithKeyObject="3A5990D5-8D19-81E1-47B5-9EE8D30DF5B0" localFKIndex="EF10A806-108A-28A9-518D-AF381877ED1B" name="promocja_gra_FK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:57 UTC</createdTime>
+<generatorID>A938E347-FB48-818D-542A-65D1D958F925</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<referredTableLongName>gra</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>210E6474-8B52-526C-42D4-12AB86A096F5</referredTableID>
+<keyObject>051C3527-DC56-3D3C-43BE-B6C399E0E14C</keyObject>
+<referredKeyID>051C3527-DC56-3D3C-43BE-B6C399E0E14C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_gra</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_STUDIO_T_KEY_STUDIO" directorySegmentName="seg_0" id="E765AC01-4324-584C-D9BF-CD650A0062D0">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:02:19 UTC</createdTime>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<engineerTo>
+<item key="584BDD9A-E397-064C-1A80-2ADBF73A2C5B" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>98F193B2-1482-3083-99E4-3956C24325BE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CA467D9B-0C20-4FE2-A20C-41D85B57CAF1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

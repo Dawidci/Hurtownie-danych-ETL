@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0C50966F-D429-9F9E-F584-FFD4B7A18008" mainViewID="A8B89B1F-9D01-483B-DEF8-F72050D624AF">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 11:41:54 UTC</createdTime>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

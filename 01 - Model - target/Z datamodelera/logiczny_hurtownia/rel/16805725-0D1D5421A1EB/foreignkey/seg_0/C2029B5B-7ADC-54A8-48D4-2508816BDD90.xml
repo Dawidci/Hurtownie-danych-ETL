@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C2029B5B-7ADC-54A8-48D4-2508816BDD90" containerWithKeyObject="96D5A9BE-289B-76F0-44D7-EC360B8F4A1D" localFKIndex="1A9F1484-E85B-29D9-D1E4-7AF4678B6350" name="wersja_poprawki_t_key_wersja_poprawki_FK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>90B7A9F1-A1C0-56FE-63E5-192B0D3F733C</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<referredTableLongName>t_key_wersja_poprawki</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E1DAF11A-8882-EF48-5A78-F2E3766C6360</referredTableID>
+<keyObject>B3A24648-8427-B43F-49B7-44E80B062EF3</keyObject>
+<referredKeyID>B3A24648-8427-B43F-49B7-44E80B062EF3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>t_key_wersja_poprawki_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

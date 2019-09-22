@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="97204DE0-9C91-8195-FF5E-728F7A41FCCA" name="wydanie">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:45:16 UTC</createdTime>
+<generatorID>DCCDFDCA-B323-F75F-F919-D532CC71B772</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="gra_id_gry" id="DAF98D5F-ADBF-0EBF-D284-0D7F81F97AC2">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:45:16 UTC</createdTime>
+<generatorID>821D1274-0A57-D2F9-C10A-1680916B41ED</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E5396F0-61D6-EAF6-F86B-4AF1C145AB74" referredColumn="A8878C02-850D-7DFE-2229-073215B694DA"/>
+</associations>
+</Column>
+<Column name="id_wydania" id="ED575C7A-3126-5203-D334-9A0B92E8A7C3">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:45:16 UTC</createdTime>
+<generatorID>F16E913A-BDA7-E159-39F9-D91313B0F723</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rok_premiery" id="7FBBBADC-2383-3296-EEFA-5116331E9769">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:45:16 UTC</createdTime>
+<generatorID>247A845C-6641-2190-877A-9AD4C133558B</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="koszt" id="371917DB-EB04-746F-51FF-7261367052EC">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:45:16 UTC</createdTime>
+<generatorID>73D443EE-7611-43C7-A29D-D1F5A25E2D7D</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6CABB3E9-F0B5-A024-0788-E3C6496527C7" name="wydanie_PK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:45:16 UTC</createdTime>
+<generatorID>110DC84D-E12A-9D27-2D53-42DC76AFC9E3</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED575C7A-3126-5203-D334-9A0B92E8A7C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38EA2743-F787-F4ED-2E2C-A6B5E67D57FE" name="wydanie__IDX">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:45:16 UTC</createdTime>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>48BEF2B2-CC10-9552-46FA-EDF7FD01B1BA</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="DAF98D5F-ADBF-0EBF-D284-0D7F81F97AC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26EE2F88-6A95-ABB1-78E9-4BFAE92F39C2" name="wydanie_gra_FK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:45:16 UTC</createdTime>
+<generatorID>48BEF2B2-CC10-9552-46FA-EDF7FD01B1BA</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAF98D5F-ADBF-0EBF-D284-0D7F81F97AC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

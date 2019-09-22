@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="11A7492A-CCBE-0B6A-38E9-05A46320E460" containerWithKeyObject="A62DD087-ABB7-8EF7-3802-21E1770D9A40" localFKIndex="143B8BCD-E7AA-F242-B3AD-5CEB2EEDE758" name="wprowadzenie_dodatku_dodatek_FK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:45:16 UTC</createdTime>
+<generatorID>83567929-C090-83BF-B1C5-1557B25FA70F</generatorID>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<referredTableLongName>dodatek</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1220DF66-1F52-8884-8CE7-4CEE8106AE25</referredTableID>
+<keyObject>CEE1BE45-EDA3-784D-1A5C-54E6A30B4AFB</keyObject>
+<referredKeyID>CEE1BE45-EDA3-784D-1A5C-54E6A30B4AFB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_dodatku</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

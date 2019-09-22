@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="logiczny_source" id="836F4A04-5D39-16F2-28B4-071D82167C8A" version="3.5">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:45:10 UTC</createdTime>
+<ownerDesignName>logiczny_source</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>836F4A04-5D39-16F2-28B4-071D82167C8A</designId>
+</OSDM_Design>

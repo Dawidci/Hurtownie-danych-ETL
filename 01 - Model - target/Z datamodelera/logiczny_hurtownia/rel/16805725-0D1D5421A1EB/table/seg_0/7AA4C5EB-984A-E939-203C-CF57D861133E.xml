@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AA4C5EB-984A-E939-203C-CF57D861133E" name="produkcja">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>3DE5192D-B04B-CE9B-382E-E17F301EC253</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produkcja" id="8B39F613-9FC0-FA2D-6D11-514FEDF6780F">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>C436EC5F-837E-B84C-BDEC-067322F29DD9</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="studio_id_studio" id="71CF0CF1-25C9-2EEE-35C0-25DDE93100A1">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>E3DE2D50-E564-BFEA-8258-305314D9A8DC</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3136964-7DF4-8E8C-BA9C-6E614EE3FC59" referredColumn="417F72DF-5074-46A9-1AD7-C34F3CF770C8"/>
+</associations>
+</Column>
+<Column name="rok_rozpoczecia" id="04CC94CA-AF67-FF21-6835-D48B21516BBF">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>A321EEB1-2ADA-A016-050E-0F9074992CAD</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="koszt" id="CC67E3A6-67BD-BAE4-7636-8D4D8EC14482">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>99AACAD6-717A-8F25-0D1D-44C1DC313F8A</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="source" id="8A0BF249-8261-8ACE-27F2-DE335009AF88">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>9227981E-BC62-50DD-2BCD-F4B782C55C3A</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="timestamp" id="4DCF0349-0FDB-AE7E-A1DA-2C70F5D747AA">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>FD196610-96CB-9994-2172-7A0D6987B4B4</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gra_id_gra" id="671C1309-CC4E-1E14-D0E8-9B25BD73989B">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>F288EC81-B3CB-C686-46D6-FF8393E10C6C</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8C518E6-6B60-7785-6755-522F0B27775B" referredColumn="D660892D-DE0C-BD3B-ECBC-7B2D4A26C7CC"/>
+</associations>
+</Column>
+<Column name="t_key_produkcja_t_key_produkcja_ID" id="B7AB9C46-54C6-3018-9AD5-AF75EAC6EF62">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CDC5D048-4A33-0F3C-374F-97DCDA8B2831" referredColumn="B36FEAE5-A525-2965-9E05-BB867826F267"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="413554AA-FA27-0AD7-F587-7AEDC88F52BC" name="produkcja_PK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>0BAA9006-1F66-5C68-C629-E8537023BF4E</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B39F613-9FC0-FA2D-6D11-514FEDF6780F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3033D0DF-561D-86D4-3D30-FE062B194DBB" name="produkcja__IDX">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>723DB608-FB8B-FE6F-A1BB-D86C976487E5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="671C1309-CC4E-1E14-D0E8-9B25BD73989B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BA05D4B-69AC-476D-CAF3-4843C3009CFC" name="produkcja_gra_FK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>723DB608-FB8B-FE6F-A1BB-D86C976487E5</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="671C1309-CC4E-1E14-D0E8-9B25BD73989B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9FB768B3-AAD3-CAA1-303A-73ADE9F25715" name="produkcja_t_key_produkcja_FK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>A192856C-1720-995C-7001-EFD3CC450E95</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7AB9C46-54C6-3018-9AD5-AF75EAC6EF62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E76A6166-1557-1793-80DB-5ABFE01F8F05" name="produkcja_studio_FK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-26 20:17:24 UTC</createdTime>
+<generatorID>F56E43FD-F597-2B0B-D6EC-C6B113538119</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71CF0CF1-25C9-2EEE-35C0-25DDE93100A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

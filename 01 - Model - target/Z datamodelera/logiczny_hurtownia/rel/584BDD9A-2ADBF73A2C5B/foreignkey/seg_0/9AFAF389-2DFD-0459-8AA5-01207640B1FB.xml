@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9AFAF389-2DFD-0459-8AA5-01207640B1FB" containerWithKeyObject="0825C4B5-4B04-42FC-81D1-46C1A9D05E34" localFKIndex="15F272ED-D173-2CE2-671E-256C5CA5743D" name="wprowadzenie_dodatku_studio_FK">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:31:10 UTC</createdTime>
+<generatorID>8CF38CAF-ACC5-CDF3-40AB-8ADDCAC6F5C7</generatorID>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<referredTableLongName>studio</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>91E81E4E-E9B8-5679-1925-24E1E3F2DD31</referredTableID>
+<keyObject>4741B587-239A-CDD7-1BA1-8BF46AB4F3B1</keyObject>
+<referredKeyID>4741B587-239A-CDD7-1BA1-8BF46AB4F3B1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_studia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

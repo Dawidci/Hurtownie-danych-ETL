@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PROMOCJA_T_KEY_PROMOCJA" directorySegmentName="seg_0" id="DB5E968A-B369-B286-CBCC-BD4CBDB87557">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 13:02:02 UTC</createdTime>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<engineerTo>
+<item key="584BDD9A-E397-064C-1A80-2ADBF73A2C5B" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>907021C3-9E5A-02A8-93F9-48BB94BFD583</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4DF96931-BF5F-F5F0-B463-EEC5DF5999E2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_GRA_T_GRA" directorySegmentName="seg_0" id="25BAD4D7-2C1E-9DF8-DFC1-73627CF77CFB">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 12:50:03 UTC</createdTime>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<engineerTo>
+<item key="584BDD9A-E397-064C-1A80-2ADBF73A2C5B" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>95FE2923-33AE-086A-20D5-F6BA443D05FD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8C35B29E-244B-48B4-F2EF-80FC0D2B4D15</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="3947960D-99EC-C1D2-778E-4919CF86C7BA">
+<createdBy>dawid</createdBy>
+<createdTime>2019-08-24 11:41:54 UTC</createdTime>
+<ownerDesignName>logiczny_hurtownia</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>
