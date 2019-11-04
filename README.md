@@ -1,2 +1,1 @@
-# Hurtownie-danych-ETL
- Zaliczenie projektu na Hurtownie Danych
+# Projekt na zaliczenie przedmiotu Hurtownie Danych - ETL
